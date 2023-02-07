@@ -1,0 +1,103 @@
+body {
+    background-color: blueviolet;
+}
+p#first_header {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    font-size: 16pt;
+    text-shadow: 2px 2px 5px black;
+}
+div#first_div {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    font-size: 20pt;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+    width: 20rem;
+    height: 5rem;
+    padding: 1rem;
+    transition: border-radius 0.5s, background-color 1s;
+    border-radius: 0;
+}
+
+
+div#first_div:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: palevioletred;
+    transition: 1s;
+    
+}
+div#info_marcadagua {
+    width: 20rem;
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+    margin: auto;
+    padding: 2rem;
+    text-shadow: 2px 2px 5px black;
+    transition: transform 1s;
+    
+}
+div#info_marcadagua:hover {
+    transform: scale(1.5);
+}
+div#relogio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+div#horas {
+    font-size: 32pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+button#button_retrair {
+    color: black;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(162, 80, 239);
+    border-radius: 50px;
+    border: none;
+    margin: auto;
+    margin-top: 2%;
+    font-family:'Times New Roman', Times, serif;
+    width: 5rem;
+    box-shadow: 2px 2px 5px black;
+    transition: transform 1s, box-shadow 1s, background-color 1s;
+}
+
+button#button_retrair:hover {
+    background-color: palevioletred;
+    box-shadow: 10px 10px 15px black;
+    transform: scale(1.5);
+}
+
+
+button#marcadagua {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 5rem;
+    background-color: rgb(162, 80, 239);
+    border: none;
+    border-radius: 50px;
+    transition: transform 1s, box-shadow 2s, background-color 1s;
+    box-shadow: 2px 2px 5px black;
+}
+button#marcadagua:hover {
+    background-color: palevioletred;
+    box-shadow: 10px 10px 15px black;
+    transform: scale(1.5);
+    
+}
